@@ -42,7 +42,7 @@ export function App() {
       loadAllTransactions()
     }
   }, [employeeUtils.loading, employees, loadAllTransactions])
-
+  
   return (
     <Fragment>
       <main className="MainContainer">
